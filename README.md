@@ -1,7 +1,7 @@
 # Titanic-Survival-Rates
 
 
-A machine learning-based approach to predict the survival outcomes of Titanic passengers based on various features such as age, sex, ticket class, and more.
+The sinking of the Titanic is one of history's most notorious maritime disasters. On April 15, 1912, during its maiden voyage, the RMS Titanic—often touted as "unsinkable"—struck an iceberg and tragically sank. With insufficient lifeboats available, 1,502 of the 2,224 passengers and crew lost their lives. Although survival had an element of chance, certain groups appeared to have a higher likelihood of surviving than others. The training dataset provides details on a subset of the passengers (891 individuals), including whether they survived. The test dataset, comprising 418 passengers, contains similar details but does not reveal the survival outcome. This project applies a machine learning approach to analyze various passenger features—such as age, sex, and ticket class—to predict survival outcomes, shedding light on the factors that influenced survival.
 
 ## Dataset
 
