@@ -1,1 +1,44 @@
 # Titanic-Survival-Rates
+
+
+A machine learning-based approach to predict the survival outcomes of Titanic passengers based on various features such as age, sex, ticket class, and more.
+
+## Dataset
+
+
+The dataset used in this project contains information about passengers aboard the Titanic, including details such as age, sex, passenger class, fare, and survival status (0 = did not survive, 1 = survived). The dataset is derived from the Titanic dataset, which is publicly available and widely used for machine learning practice.
+
+The dataset can be found here:
+
+1. https://www.kaggle.com/datasets/yasserh/titanic-dataset
+2. https://www.kaggle.com/datasets/ashishkumarjayswal/titanic-datasets
+
+## Preprocessing
+
+The following preprocessing steps were performed on the dataset:
+
+- Handling missing values (e.g., filling missing age data).
+- Encoding categorical variables (e.g., Sex, Embarked).
+- Scaling numerical features (e.g., Age, Fare).
+- Dropping irrelevant columns (e.g., Name, Ticket, Cabin).
+
+## Models Implemented
+
+
+Supervised learning techniques were employed to predict survival status. The algorithms implemented include:
+
+1. Logistic Regression - A simple yet powerful classifier for binary outcomes.
+2. Random Forest Classifier - An ensemble learning method for improved accuracy.
+3. Support Vector Machine (SVM) - A robust classifier with kernel functions.
+4. Decision Tree Classifier - A tree-based model for clear decision paths.
+5. K-Nearest Neighbors (KNN) - A non-parametric algorithm based on proximity.
+
+## Setup
+Create new Python environment
+```
+conda create -n pyenv python=3.9
+```
+Activate the environment.
+```
+conda activate pyenv
+```
